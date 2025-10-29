@@ -11,14 +11,14 @@
       </div>
     </div>
     <div class="content__playlist playlist">
-      <Track v-for="track in tracks" :key="track.id" :track="track" />
+      <TrackBar v-for="track in tracks" :key="track.id" :track="track" />
     </div>
   </div>
 </template>
 
 <script setup>
 import { inject } from 'vue'
-import Track from './Track.vue'
+import TrackBar from './TrackBar.vue'
 const tracks = inject('tracks')
 </script>
 
