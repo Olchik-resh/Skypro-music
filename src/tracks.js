@@ -59,6 +59,6 @@ export const getTracks = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(tracks)
-    }, 500)
+    }, 100)
   })
 }

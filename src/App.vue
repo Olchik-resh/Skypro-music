@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="container">
       <main class="main">
-        <Navbar />
+        <NavBar />
         <div class="main__centerblock centerblock">
           <div class="centerblock__search search">
             <svg class="search__svg">
@@ -12,7 +12,7 @@
           </div>
           <h2 class="centerblock__h2">Треки</h2>
           <FilterControls />
-          <Playlist />
+          <PlayList />
         </div>
         <div class="main__sidebar sidebar">
           <div class="sidebar__personal">
@@ -52,9 +52,9 @@
 <script setup>
 import { provide, ref } from 'vue'
 import FilterControls from './components/FilterControls.vue'
-import Navbar from './components/Navbar.vue'
+import NavBar from './components/NavBar.vue'
 import PlayerBar from './components/PlayerBar.vue'
-import Playlist from './components/Playlist.vue'
+import PlayList from './components/PlayList.vue'
 import { getTracks } from './tracks'
 
 const tracks = ref([])
