@@ -1,7 +1,7 @@
 <template>
   <nav class="main__nav nav">
     <div class="nav__logo logo">
-      <img class="logo__image" src="/src/components/img/logo.png" />
+      <img class="logo__image" src="/public/img/logo.png" />
     </div>
     <div class="nav__burger burger">
       <span class="burger__line"></span>
@@ -26,7 +26,7 @@
 
 <script setup></script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .main__nav {
   width: 244px;
   flex: 0 0 auto;

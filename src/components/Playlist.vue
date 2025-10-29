@@ -6,7 +6,7 @@
       <div class="playlist-title__col col03">Альбом</div>
       <div class="playlist-title__col col04">
         <svg class="playlist-title__svg">
-          <use xlink:href="#icon-watch"></use>
+          <use xlink:href="/img/sprite.svg#icon-watch"></use>
         </svg>
       </div>
     </div>
@@ -22,7 +22,7 @@ import Track from './Track.vue'
 const tracks = inject('tracks')
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .content__playlist {
   display: flex;
   flex-direction: column;

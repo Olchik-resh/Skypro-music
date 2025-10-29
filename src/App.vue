@@ -6,7 +6,7 @@
         <div class="main__centerblock centerblock">
           <div class="centerblock__search search">
             <svg class="search__svg">
-              <use xlink:href="#icon-search"></use>
+              <use xlink:href="/img/sprite.svg#icon-search"></use>
             </svg>
             <input class="search__text" type="search" placeholder="Поиск" name="search" />
           </div>
@@ -19,7 +19,7 @@
             <p class="sidebar__personal-name">Sergey.Ivanov</p>
             <div class="sidebar__icon">
               <svg>
-                <use xlink:href="#logout"></use>
+                <use xlink:href="/img/sprite.svg#logout"></use>
               </svg>
             </div>
           </div>
@@ -27,17 +27,17 @@
             <div class="sidebar__list">
               <div class="sidebar__item">
                 <a class="sidebar__link" href="#">
-                  <img class="sidebar__img" src="" alt="day's playlist" />
+                  <img class="sidebar__img" src="/public/img/playlist01.png" alt="day's playlist" />
                 </a>
               </div>
               <div class="sidebar__item">
                 <a class="sidebar__link" href="#">
-                  <img class="sidebar__img" src="" alt="day's playlist" />
+                  <img class="sidebar__img" src="/public/img/playlist02.png" alt="day's playlist" />
                 </a>
               </div>
               <div class="sidebar__item">
                 <a class="sidebar__link" href="#">
-                  <img class="sidebar__img" src="" alt="day's playlist" />
+                  <img class="sidebar__img" src="/public/img/playlist03.png" alt="day's playlist" />
                 </a>
               </div>
             </div>
@@ -72,7 +72,7 @@ provide('tracks', tracks)
 loadTracks()
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .wrapper {
   width: 100%;
   min-height: 100%;

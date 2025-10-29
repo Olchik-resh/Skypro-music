@@ -4,13 +4,12 @@
       <div class="track__title">
         <div class="track__title-image">
           <svg class="track__title-svg">
-            <use xlink:href="#icon-note"></use>
+            <use xlink:href="/img/sprite.svg#icon-note"></use>
           </svg>
         </div>
         <div class="track__title-text">
           <a class="track__title-link" href="http://">
             {{ track.title }}
-            <!-- Добавляем проверку на наличие ремикса -->
             <span v-if="track.title.includes('(Remix)')" class="track__title-span">(Remix)</span>
           </a>
         </div>
@@ -23,7 +22,7 @@
       </div>
       <div class="track__time">
         <svg class="track__time-svg">
-          <use xlink:href="#icon-like"></use>
+          <use xlink:href="/img/sprite.svg#icon-like"></use>
         </svg>
         <span class="track__time-text">{{ track.duration }}</span>
       </div>
@@ -49,7 +48,7 @@ defineProps({
 })
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .playlist__track {
   display: -webkit-box;
   display: -ms-flexbox;
